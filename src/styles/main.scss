@@ -1,0 +1,90 @@
+
+html {
+  height: 100%;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  height: 100%;
+  background-color: #f9f9f9;
+  color: #1f1f1f;
+}
+
+.app {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.page {
+  margin-top: 65px;
+  flex: 1 1 auto;
+
+  h3 {
+    margin-top: 60px;
+  }
+
+  &__wrap {
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+    &--narrow {
+      max-width: 360px;
+    }
+  }
+  &__title {
+    margin-top: 60px;
+    margin-bottom: 12px;
+    font-size: 26px;
+    font-weight: 100;
+    &--big {
+      font-weight: 700;
+    }
+  }
+  &__subtitle {
+    font-size: 14px;
+    max-width: 640px;
+    color: #656565;
+  }
+
+  &__section {
+    margin-bottom: 40px;
+    &:first-child {
+      margin-top: 40px;
+    }
+  }
+
+  &__intro {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+}
+
+
+@media only screen and (min-width: 740px) {
+  .formslist {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+
+.fade {
+  $time: 250ms;
+
+  &-enter-active,
+  &-leave-active {
+    transition-duration: $time;
+    transition-property: opacity;
+    transition-timing-function: ease;
+  }
+
+  &-enter,
+  &-leave-active {
+    opacity: 0
+  }
+}
+
+@media print {
+  @page { margin: 10mm; }
+}

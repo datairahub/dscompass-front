@@ -1,0 +1,140 @@
+{
+  "project": {
+    "name": "DS-Compass",
+    "repository_url": "https://github.com/Saigesp/protectiondefenders-front",
+    "tenant": "Protection International",
+    "tenant_url": "https://www.protectioninternational.org/en",
+    "tenant_email": "ds-compass@protectioninternational.org"
+  },
+
+  "common": {
+    "continue": "Continuar",
+    "remove": "Eliminar",
+    "email": "Email",
+    "example": "Ejemplo",
+    "login": "Login",
+    "next": "Siguiente",
+    "back": "Atrás",
+    "finish": "Finalizar",
+    "print": "Imprimir",
+    "previous": "Previo",
+    "start": "Empezar",
+    "edit": "Editar",
+    "started": "Empezado",
+    "last_modification": "Última modificación",
+    "download_docx": "Descargar doc",
+    "download_attachment": "Descargar adjunto",
+    "question_$number/$total": "{number}/{total}"
+  },
+
+  "error": {
+    "invalidEmail": "El email no es válido",
+    "invalidPassword": "La contraseña es muy débil",
+    "notEqualRepeatedPassword": "Las contraseñas no coinciden",
+    "wrongLogin": "Email o contraseña incorrectos"
+  },
+
+  "alert": {
+    "user_activated": "Usuario activado",
+    "authentication_error": "Error de autenticación. Vuelva a iniciar sesión."
+  },
+
+  "confirm": {
+    "remove_form_answer": "Quieres eliminar este plan?"
+  },
+
+  "menu": {
+    "about": "Sobre nosotros",
+    "contact": "Contacto",
+    "home": "Inicio",
+    "login": "Login",
+    "logout": "Cerrar sesión",
+    "quizs": "Planes",
+    "yourquizs": "Tus planes"
+  },
+
+  "footer": {
+    "pre_tenant": "Creado por",
+    "tos": "Términos del servicio",
+    "privacy_policy": "Política de privacidad",
+    "cookie_policy": "Política de cookies",
+    "contact": "Contacto",
+    "source_code": "Código fuente",
+    "responsibilities": "Exención de responsabilidades: los análisis de riesgo y los planes de protección son de naturaleza deliberativa, y están sujetos siempre a mejoras, críticas, y errores. Por ello Protección Internacional no puede ser objeto de reclamación por los resultados del uso de esta herramienta."
+  },
+
+  "tos": {
+    "title": "Términos del servicio"
+  },
+
+  "home": {
+    "title": "Evalua tus riesgos y planifica tu protección",
+    "subtitle": "DS-Compass es una herramienta informática para que los defensores de los derechos humanos en entornos hostiles puedan hacer una evaluación de riesgos y construir sus propios planes de protección.",
+    "claim": "Una herramienta libre y segura hecha para los defensores de los derechos humanos y las organizaciones de la sociedad civil",
+    "action_title": "Construya su propio plan de seguridad",
+    "about_us": "Somos una organización internacional sin fines de lucro que apoya a los defensores de los derechos humanos en el desarrollo de sus estrategias de gestión de seguridad y protección. Protection International ha estado trabajando desde 2004 con asociados locales en más de 30 países de todo el mundo.",
+    "see_more_plans": "Ver más planes",
+    "features_title": "Características",
+    "features_subtitle": "Estos son las principales ventajas de la herramienta",
+    "feature_block_1": "Esta es una herramienta para ayudar a las/os DDH que trabajan en entornos hostiles para proceder con su análisis de riesgo y construir sus propios planes o protocolos de protección.",
+    "feature_block_2": "Las organizaciones sociales que tengan un previo conocimiento sobre el análisis de riesgo y los planes de protección pueden usarla aisladamente; el resto de organizaciones requerirá de apoyo experto externo al menos para comenzar a usarla y una vez familiarizadas poder usarla de modo autónomo.",
+    "feature_1": "Está basado en la lógica de “reflexionar, pensar juntos/as”, al interior de una organización.",
+    "feature_2": "El foco está en las situaciones de mayor riesgo (abordaje situado).",
+    "feature_3": "Incluye un abordaje diferencial de género e interseccional.",
+    "feature_4": "Hemos incluido un abordaje de protección colectiva, especialmente para organizaciones comunitarias en defensa de territorios.",
+    "start_without_register": "Empezar sin registrarse"
+  },
+
+  "login": {
+    "title": "Login en DS-Compass",
+    "password": "Contraseña",
+    "password_repeat": "Repetir contraseña",
+    "sign_in": "Iniciar sesión",
+    "create_account": "Crear cuenta",
+    "not_registered": "¿Nuevo en DS-Compass?",
+    "not_registered_action": "Crea una cuenta",
+    "already_registered": "¿Ya registrado?",
+    "already_registered_action": "Iniciar sesión",
+    "title_after_register": "Solicitud enviada",
+    "text_after_register": "Por razones de seguridad, su registro requiere una aprobación manual, y que puede tardar entre 24 y 48 horas. Gracias por acompañarnos durante este proceso."
+  },
+
+  "quizs": {
+    "title": "DS-Compass: una herramienta al servicio de quienes defienden los derechos humanos",
+    "title_available": "Empieza un plan nuevo",
+    "subtitle_available": "Estos son los planes que tienes disponibles para empezar.",
+    "title_saved": "Tus planes guardados",
+    "subtitle_saved": "Aqui encontrarás tus planes guardados para poder retomarlos cuando quieras.",
+    "already_started_form": "Tienes un plan actualmente en edición. ¿Quieres continuarlo?",
+    "empty": "No tienes planes guardados aún",
+    "section_1_1": "DS-Compass está concebido como una herramienta que facilita  y ayuda a defensores/as de derechos humanos para una mejor protección de su labor. Esta meta se refleja en el nombre de la herramienta",
+    "section_1_2": "Con esta herramienta, única en su género, queremos poner la experiencia de Protection International al servicio de quienes defienden los derechos humanos en todo el mundo, saltando por encima de las distancias físicas que a veces nos separan, pero confiando siempre en el trabajo en grupo, que nos mantiene sobre el terreno.",
+    "section_1_3": "Como dijimos antes, esta herramienta está diseñada para su uso por defensoras/es que tengan conocimiento previo o formación sobre el abordaje de riesgo y la protección. Si no es tu caso, necesitarás apoyo adicional para usar DS-Compass.",
+    "section_2": "DS-Compass: un itinerario de pasos, distribuidos en tres etapas.",
+    "section_2_1": "DS-Compass incluye un itinerario de pasos, ayudarán a analizar nuestros riesgos, primero, y a planificar nuestra protección, después. Es importante seguir este orden de pasos, para que los resultados tengan el máximo sentido posible.",
+    "section_2_2": "Las tres etapas son:",
+    "section_2_3": "1. Análisis de riesgo, con foco en los potenciales agresores y las amenazas contra DDH.",
+    "section_2_4": "2. Planes de protección para reducir los riesgos: abordar y introducir las condiciones de vulnerabilidad, incrementar las capacidades, abordar y reducir las amenazas.",
+    "section_2_5": "3. Descargar el análisis de riesgo y el plan de protección, y editarlo y hacer los cambios necesarios para que convierta en un documento vivo, y a nuestro servicio.",
+    "section_2_6": "Para cada paso hay que leer la información en las distintas casillas: instrucciones, ejemplos, consejos y guías para descargar.",
+    "section_3": "¿Es DS-Compass una herramienta segura?",
+    "section_3_1": "Sí, DS-Compass es una herramienta segura, de acuerdo a los estándares actuales.",
+    "section_3_2": "Para accede a DS-Compass es solicitarlo por correo electrónico, desde la plataforma de la herramienta. Cada solicitud será revisada y llegado el caso aprobada por el personal de PI (tardaremos unas 24-28 horas, o algo más si hay un fin de semana en medio)",
+    "section_3_3": "Tus planes serán guardados de modo seguro en el servidor de DS-Compass. Nadie tendrá acceso a ellos, excepto personal muy específico de PI, con una cláusula de confidencialidad, y sólo tras tu petición, por ejemplo para recuperar datos perdidos, o si solicitas apoyo para usar la herramienta. En este caso, sucede como en un taller facilitado por PI: nuestro personal en el taller conoce lo que se habla en el taller, pero no se comparte con nadie.",
+    "section_3_4": "Todos los datos permanecen encriptados en el servidor, con tu contraseña de acceso. Tus planes están, además encriptados con nuestra contraseña. Aún si alguien hackeara el servidor, los datos seguirían a salvo. Pero esto también significa que, si olvidas tu contraseña, podrías perder tus datos. Si olvidas tu contraseña, dínoslo, por favor, para que podamos darte de nuevo acceso a tus planes.",
+    "section_4": "¿Qué necesitamos para el trabajo?",
+    "section_4_1": "1. Conexión a Internet y guardado de la información",
+    "section_4_2": "Lo que vayamos escribiendo se va grabando automáticamente cada 30 segundos, o cada vez que avanzamos o retrocedemos un paso, dentro del itinerario de la herramienta (sabremos que se ha grabado la información porque una línea verde recorre de izquierda a derecha la parte superior de la pantalla).",
+    "section_4_3": "2. Trabajar en equipo (o en grupo) o individualmente",
+    "section_4_4": "Podemos trabajar individualmente, pero la herramienta está pensada para reflexionar en equipo o en grupo, porque es útil tener varias mentes enfocadas en la reflexión, y así se recogen además distintas sensibilidades y puntos de vista (como género, distintas maneras de abordar un tema, distintas área de trabajo, etc.).",
+    "section_4_5": "3. Materiales para trabajar",
+    "section_4_6": "Papelógrafo, marcadores  y cinta de enmascarar, para el trabajo en grupo. Recomendamos también usar “post-it” o tarjetitas para poner las ideas y reflexiones sobre el papelógrafo, porque es más fácil moverlas (durante la reflexión) que si las escribimos (se quedan estáticas).",
+    "section_4_7": "4. Información adicional sobre algunos de los pasos del itinerario",
+    "section_4_8": "La herramienta incluye varios pequeñas guías que se pueden ir descargando e imprimiendo si tenemos una impresora a mano. También se pueden descargar uno a uno por anticipado (mirando en cada paso de la herramienta, ante de iniciar el trabajo en sí), y de esta manera ya los tenemos en mano.",
+    "section_4_9": "Nota: Recordemos que la seguridad es muy importante cuando trabajemos sobre nuestros análisis y planes. Por ejemplo, conectar con DS-Compass en un café-internet no es seguro. Si imprimes tu plan de protección, esas copias deben ser guardadas en lugar seguro.",
+    "section_5": "¿Cómo contactar con PO sobre DS-Compass?",
+    "section_5_1": "Para cualquier información o duda en relación con el uso de DS-Compass, por favor escribid a",
+    "formanswer_name_label": "¿Con qué nombre quieres guardar este plan?",
+    "formanswer_name_placeholder": "Nombre del plan"
+  }
+}

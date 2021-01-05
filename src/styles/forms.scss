@@ -1,0 +1,61 @@
+%textinput {
+  display: block;
+  width: 100%;
+  padding: 7px 12px;
+  color: #24292e;
+  vertical-align: middle;
+  background: white;
+  border: 1px solid #e1e4e8;
+  border-radius: 6px;
+  outline: none;
+  margin-top: 5px;
+  margin-bottom: 2px;
+  &:focus {
+    border-color: #0366d6;
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(3,102,214,.3);
+  }
+}
+
+.form {
+
+  &__block {
+    margin-bottom: 20px;
+    &--alert {
+      color: #ef5b5b;
+      text-align: center;
+    }
+    &--buttons {
+      margin-bottom: 0;
+    }
+  }
+
+  label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 7px;
+    text-align: left;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    @extend %textinput;
+  }
+
+  textarea {
+    @extend %textinput;
+  }
+
+  .btn {
+    display: block;
+    width: 100%;
+    margin-top: 28px;
+  }
+
+  &__error {
+    color: #ef5b5b;
+    padding: 0 5px;
+    font-size: 12px;
+  }
+}
