@@ -43,4 +43,8 @@ axios.interceptors.response.use((response) => response, debounce((error) => {
     });
 }, 1000, true));
 
-export default axios;
+const httpClient = axios.create();
+
+httpClient.defaults.timeout = 5 * 60 * 1000;
+
+export default httpClient;
